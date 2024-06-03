@@ -2,6 +2,7 @@ from flask import Flask, render_template, request
 
 app = Flask(__name__)
 
+
 def check_winner(board, player):
     # Check rows
     for row in board:
